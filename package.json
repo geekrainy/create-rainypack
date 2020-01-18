@@ -1,0 +1,29 @@
+{
+  "name": "create-rainypack",
+  "version": "0.0.1",
+  "description": "rainypack-cli wrapper",
+  "main": "index.js",
+  "bin": {
+    "create-rainypack": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekrainy/create-rainypack.git"
+  },
+  "keywords": [
+    "rainypack",
+    "webpack",
+    "rollup"
+  ],
+  "author": "Rainy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekrainy/create-rainypack/issues"
+  },
+  "homepage": "https://github.com/geekrainy/create-rainypack#readme",
+  "dependencies": {
+    "execa": "^4.0.0",
+    "rainypack-cli": "^0.1.4",
+    "resolve": "^1.14.2"
+  }
+}
