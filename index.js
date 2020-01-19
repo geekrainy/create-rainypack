@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const resolve = require('resolve');
+const execa = require('execa')
 
 const rpPath = resolve.sync('rainypack-cli', { basedir: __dirname });
 const args = process.argv.reduce((acc, cur) => {
